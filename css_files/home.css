@@ -1,5 +1,5 @@
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: "Arial", sans-serif;
   margin: 80px;
   padding: 0;
   color: #333;
@@ -9,7 +9,6 @@ body {
   background-repeat: no-repeat;
   min-height: 100vh;
   margin-top: 150px;
-
 }
 
 ::-webkit-scrollbar {
@@ -81,7 +80,6 @@ section p {
   line-height: 1.6;
 }
 
-
 a {
   text-decoration: none;
 }
@@ -115,10 +113,16 @@ a {
 }
 
 #about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #ebf1f1;
   margin-top: 17%;
 }
 
 .section {
+  height: calc(100dvh - 75.2px);
   max-width: 800px;
   margin: 20px auto;
   padding: 20px;
@@ -217,7 +221,7 @@ p {
   top: 10px;
   right: 10px;
   padding: 15px;
-  background-color: #4CAF50;
+  background-color: #4caf50;
   color: #fff;
   border-radius: 5px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -260,7 +264,7 @@ p {
 
 /*adding icon hover glow */
 .twitter-link {
-  transition: .5s;
+  transition: 0.5s;
   text-decoration: none;
   color: inherit;
 }
@@ -279,7 +283,7 @@ p {
 }
 
 .e-mail-link {
-  transition: .5s;
+  transition: 0.5s;
   text-decoration: none;
   color: inherit;
 }
@@ -298,7 +302,7 @@ p {
 }
 
 .github-link {
-  transition: .5s;
+  transition: 0.5s;
   text-decoration: none;
   color: inherit;
 }
@@ -317,7 +321,7 @@ p {
 }
 
 .linkedin-link {
-  transition: .5s;
+  transition: 0.5s;
   text-decoration: none;
   color: inherit;
 }
@@ -343,7 +347,6 @@ p {
 
   font-size: 15px;
   padding: 5px;
-
 }
 
 .a:hover {
@@ -354,7 +357,6 @@ p {
   text-decoration-color: grey;
   transition: 0.3s ease-out;
 }
-
 
 /* Additional styling for responsiveness */
 @media (max-width: 768px) {
@@ -430,13 +432,12 @@ body::-webkit-scrollbar-thumb:hover {
 /* Custom scrollbar for Firefox */
 body {
   scrollbar-width: thin;
-  scrollbar-color: #00FF00 #CCFFCC;
+  scrollbar-color: #00ff00 #ccffcc;
 }
 
 body:hover {
   scrollbar-width: thin;
-  scrollbar-color: #008000 #CCFFCC;
-
+  scrollbar-color: #008000 #ccffcc;
 }
 
 .cookie-consent {
